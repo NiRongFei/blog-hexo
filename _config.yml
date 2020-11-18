@@ -108,3 +108,26 @@ deploy:
   repo:
     github: https://github.com/NiRongFei/blog-hexo.git
   branch: master:gh-pages
+
+# hexo-neat
+neat_enable: true
+# html
+neat_html:
+  enable: true
+  exclude:
+# css
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'
+    - '**/love.js'
